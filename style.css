@@ -1,43 +1,43 @@
 /* CSS files add styling rules to your content */
 
 @font-face {
-  font-family: Libertinus; 
-  src: url("LibertinusSerif-Regular.ttf");
+  font-family: LibreFranklin-Regular; 
+  src: url("LibreFranklin-Regular.ttf");
 }
 
 @font-face {
-  font-family: Libertinus-Italic; 
-  src: url("LibertinusSerif-Italic.ttf");
+  font-family: LibreFranklin-Italic; 
+  src: url("LibreFranklin-Italic.ttf");
 }
 
 @font-face {
-  font-family: Libertinus-Bold; 
-  src: url("LibertinusSerif-Bold.ttf");
+  font-family: LibreFranklin-Bold; 
+  src: url("LibreFranklin-Bold.ttf");
 }
 
 @font-face {
-  font-family: Libertinus-Bold-Italic; 
-  src: url("LibertinusSerif-BoldItalic.ttf");
+  font-family: LibreFranklin-Bold-Italic; 
+  src: url("LibreFranklin-BoldItalic.ttf");
 }
 
 @font-face {
-  font-family: Open-Sans; 
-  src: url("Open Sans.ttf");
+  font-family: LibreFranklin-Medium-Italic; 
+  src: url("LibreFranklin-MediumItalic.ttf");
 }
 
 @font-face {
-  font-family: Open-Sans-Italic; 
-  src: url("Open Sans Italic.ttf");
+  font-family: LibreFranklin-Light-Italic; 
+  src: url("LibreFranklin-LightItalic.ttf");
 }
 
 @font-face {
-  font-family: Open-Sans-Light; 
-  src: url("Open Sans Light.ttf");
+  font-family: LibreFranklin-Light; 
+  src: url("LibreFranklin-Light.ttf");
 }
 
 @font-face {
-  font-family: Young-Serif; 
-  src: url("Young Serif.ttf");
+  font-family: FunnelDisplay-Regular; 
+  src: url("FunnelDisplay-Regular.ttf");
 }
  
 
@@ -48,17 +48,17 @@
 }
 
 body {
-  font-family: Libertinus, Libertinus-Italic, Libertinus-Bold;
+  font-family: FunnelDisplay-Regular, LibreFranklin-Light, LibreFranklin-Bold;
   margin: 2em;
   background-color: #e4f1ff;
 }
 
 a {
-  color: #577cbe;
+  color: #7350a0;
 }
 
 h1 {
-  font-family: Libertinus, Libertinus-Italic;
+  font-family: LibreFranklin-Regular, LibreFranklin-Italic;
   font-size: 75px;
   font-style: normal;
   font-weight: 250;
@@ -70,12 +70,12 @@ h1 {
 
 h2 {
   font-size: 30px;
-  font-family: Libertinus, Libertinus-Italic;
+  font-family: LibreFranklin-Regular, LibreFranklin-Italic;
   line-height: 150%;
 }
 
 h3 {
-  font-family: Libertinus, Libertinus-Italic;
+  font-family: LibreFranklin-Regular, LibreFranklin-Italic;
   font-size: 30px;
   font-style: regular;
   line-height: 120%;
@@ -85,7 +85,7 @@ h3 {
 
 h4 {
   font-size: 31px;
-    font-family: Libertinus, Libertinus-Italic;
+    font-family: LibreFranklin-Regular, LibreFranklin-Italic;
   line-height: 150%;
   text-align: center;
   color: #496eb4;
@@ -93,7 +93,7 @@ h4 {
 }
 
 h5 {
-  font-family: Libertinus, Libertinus-Italic;
+  font-family: LibreFranklin-Regular, LibreFranklin-Italic;
   font-size: 25px;
   font-style: regular;
   padding-bottom: 5px;
