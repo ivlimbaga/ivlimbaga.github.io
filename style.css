@@ -1,46 +1,19 @@
 /* CSS files add styling rules to your content */
 
 @font-face {
-  font-family: LibreFranklin-Regular; 
-  src: url("LibreFranklin-Regular.ttf");
+  font-family: Fraunces; 
+  src: url("Fraunces.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: LibreFranklin-Italic; 
-  src: url("LibreFranklin-Italic.ttf");
+  font-family: Baskerville; 
+  src: url("LibreBaskerville.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: LibreFranklin-Bold; 
-  src: url("LibreFranklin-Bold.ttf");
+  font-family: BaskervilleItalic; 
+  src: url("LibreBaskervilleItalic.ttf") format("truetype");
 }
-
-@font-face {
-  font-family: LibreFranklin-Bold-Italic; 
-  src: url("LibreFranklin-BoldItalic.ttf");
-}
-
-@font-face {
-  font-family: LibreFranklin-Medium-Italic; 
-  src: url("LibreFranklin-MediumItalic.ttf");
-}
-
-@font-face {
-  font-family: LibreFranklin-Light-Italic; 
-  src: url("LibreFranklin-LightItalic.ttf");
-}
-
-@font-face {
-  font-family: LibreFranklin-Light; 
-  src: url("LibreFranklin-Light.ttf");
-}
-
-@font-face {
-  font-family: FunnelDisplay-Regular; 
-  src: url("FunnelDisplay-Regular.ttf");
-}
- 
-
 
 * {
   margin: 0;
@@ -48,7 +21,7 @@
 }
 
 body {
-  font-family: FunnelDisplay-Regular, LibreFranklin-Light, LibreFranklin-Bold;
+  font-family: Baskerville, BaskervilleItalic;
   margin: 2em;
   background-color: #e4f1ff;
 }
@@ -58,7 +31,7 @@ a {
 }
 
 h1 {
-  font-family: LibreFranklin-Regular, LibreFranklin-Italic;
+  font-family: Fraunces;
   font-size: 75px;
   font-style: normal;
   font-weight: 250;
@@ -70,12 +43,12 @@ h1 {
 
 h2 {
   font-size: 30px;
-  font-family: LibreFranklin-Regular, LibreFranklin-Italic;
+  font-family: Fraunces;
   line-height: 150%;
 }
 
 h3 {
-  font-family: LibreFranklin-Regular, LibreFranklin-Italic;
+  font-family: Fraunces;
   font-size: 30px;
   font-style: regular;
   line-height: 120%;
@@ -85,7 +58,7 @@ h3 {
 
 h4 {
   font-size: 31px;
-    font-family: LibreFranklin-Regular, LibreFranklin-Italic;
+    font-family: Fraunces;
   line-height: 150%;
   text-align: center;
   color: #496eb4;
@@ -93,7 +66,7 @@ h4 {
 }
 
 h5 {
-  font-family: LibreFranklin-Regular, LibreFranklin-Italic;
+  font-family: Fraunces;
   font-size: 25px;
   font-style: regular;
   padding-bottom: 5px;
@@ -132,6 +105,7 @@ h5 {
   padding: 14px 55px;
   text-decoration: none;
   font-size: 22px;
+  font-family: Fraunces;
 }
 
 .nav a:hover {
@@ -227,7 +201,7 @@ h5 {
   text-align: left;
   color: black;
   line-height: 150%;
-  font-family: Open-Sans;
+  font-family: Baskerville, BaskervilleItalic;
   font-size: 16px;
   opacity: 0;
   transform: translateY(50px);
@@ -241,7 +215,7 @@ h5 {
   padding: 20px 30px 20px 30px;
   text-align: center;
   background-color: white;
-  font-family: Open-Sans;
+  font-family: Baskerville, BaskervilleItalic;
   color: black;
   line-height: 150%;
   word-spacing: 3px;
@@ -265,7 +239,7 @@ h5 {
 }
 
 .about {
-  font-family: Open-Sans;
+  font-family: Baskerville, BaskervilleItalic;
   font-size: 18px;
   background: #496eb4;
   padding: 20px 20px;
