@@ -74,9 +74,7 @@ h5 {
 }
 
 .repeat {
-  background-image: url("repeat.png");
-  background-repeat: repeat;
-  background-color: #e4f1ff;
+  background-color: white;
 }
 
 
@@ -214,7 +212,7 @@ h5 {
 .centercard {
   padding: 20px 30px 20px 30px;
   text-align: center;
-  background-color: white;
+  background-color: lavenderblush;
   font-family: Baskerville, BaskervilleItalic;
   color: black;
   line-height: 150%;
