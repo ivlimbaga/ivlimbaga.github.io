@@ -1,8 +1,43 @@
 /* CSS files add styling rules to your content */
 
 @font-face {
-  font-family: Fraunces; 
-  src: url("Fraunces.ttf") format("truetype");
+  font-family: EBGaramondRegular; 
+  src: url("EBGaramond-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: EBGaramondSemiBold; 
+  src: url("EBGaramond-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: EBGaramondSemiBoldItalic; 
+  src: url("EBGaramond-SemiBoldItalic.ttf") format("truetype");
+}
+
+  @font-face {
+  font-family: EBGaramondMedium; 
+  src: url("EBGaramond-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: EBGaramondMediumItalic; 
+  src: url("EBGaramond-MediumItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: EBGaramondItalic; 
+  src: url("EBGaramond-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: EBGaramondBoldItalic; 
+  src: url("EBGaramond-BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: EBGaramondBold; 
+  src: url("EBGaramond-Bold.ttf") format("truetype");
 }
 
 @font-face {
@@ -31,7 +66,7 @@ a {
 }
 
 h1 {
-  font-family: Fraunces;
+  font-family: EBGaramondBold;
   font-size: 75px;
   font-style: normal;
   font-weight: 250;
@@ -43,12 +78,12 @@ h1 {
 
 h2 {
   font-size: 30px;
-  font-family: Fraunces;
+  font-family: EBGaramondRegular;
   line-height: 150%;
 }
 
 h3 {
-  font-family: Fraunces;
+  font-family: EBGaramondMediumItalic;
   font-size: 20px;
   font-style: regular;
   line-height: 120%;
@@ -58,7 +93,7 @@ h3 {
 
 h4 {
   font-size: 31px;
-    font-family: Fraunces;
+    font-family: EBGaramond;
   line-height: 150%;
   text-align: center;
   color: #496eb4;
@@ -98,12 +133,12 @@ h5 {
 
 .nav a {
   float: left;
-  color: #496eb4;
+  color: #a2abce;
   text-align: center;
   padding: 14px 55px;
   text-decoration: none;
   font-size: 22px;
-  font-family: Fraunces;
+  font-family: EBGaramondRegular;
 }
 
 .nav a:hover {
@@ -116,7 +151,7 @@ h5 {
 }
 
 .nav a.active {
-  background-color: #f1aa9b;
+  background-color: #a2abce;
   color: white;
 }
 
