@@ -425,4 +425,9 @@ h5 {
   }
 }
 
-
+<!-- border-bottom CSS property -->
+    <style>
+        h2 {
+            border-bottom: 2px solid black;
+        }
+    </style>
