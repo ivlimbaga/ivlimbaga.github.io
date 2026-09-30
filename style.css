@@ -109,7 +109,7 @@ h5 {
 }
 
 .repeat {
-  background-color: white;
+  background-color: #faeee7;
 }
 
 
@@ -142,7 +142,7 @@ h5 {
 }
 
 .nav a:hover {
-  background-color: #ddd; 
+  background-color: #faeee7; 
   color: black; 
 }
 
@@ -229,7 +229,7 @@ h5 {
 
 
 .card {
-  background: white;
+  background: #ffc6c7;
   padding: 20px 50px 40px 50px;
   text-align: left;
   color: black;
@@ -247,7 +247,7 @@ h5 {
 .centercard {
   padding: 20px 30px 20px 30px;
   text-align: center;
-  background-color: lavenderblush;
+  background-color: #c3f0ca;
   font-family: Baskerville, BaskervilleItalic;
   color: black;
   line-height: 150%;
