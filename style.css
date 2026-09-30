@@ -58,7 +58,7 @@
 body {
   font-family: Baskerville, BaskervilleItalic;
   margin: 2em;
-  background-color: #c3f0ca;
+  background-color: #faeee7;
 }
 
 a {
@@ -229,7 +229,7 @@ h5 {
 
 
 .card {
-  background: #ffc6c7;
+  background: #faeee7;
   padding: 20px 50px 40px 50px;
   text-align: left;
   color: black;
@@ -247,7 +247,7 @@ h5 {
 .centercard {
   padding: 20px 30px 20px 30px;
   text-align: center;
-  background-color: #c3f0ca;
+  background-color: #ffc6c7;
   font-family: Baskerville, BaskervilleItalic;
   color: black;
   line-height: 150%;
@@ -297,7 +297,7 @@ h5 {
 .footer {
     padding: 10px 30px 12px 30px; 
   text-align: left; 
-  background: #c3f0ca;
+  background: #fffbf5;
   font-size: 12px;
 }
 
