@@ -109,7 +109,7 @@ h5 {
 }
 
 .repeat {
-  background-color: #white;
+  background-color: white;
 }
 
 
@@ -122,7 +122,7 @@ h5 {
 
 .headerimage {
   flex: 100%;
-  background-color: white;
+  background-color: #a2abce;
   padding: 0px 0px 0px 0px;
 }
 
@@ -229,7 +229,7 @@ h5 {
 
 
 .card {
-  background: #white;
+  background: #a2abce;
   padding: 20px 50px 40px 50px;
   text-align: left;
   color: black;
